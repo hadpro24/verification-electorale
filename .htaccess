@@ -1,0 +1,8 @@
+RewriteEngine on
+rewriteRule get_data_verify.php [L]
+rewriteRule assets [L]
+rewriteRule config [L]
+rewriteRule style.css [L]
+
+ErrorDocument 404 'alfjal'
+ErrorDocument 500 'alfj'
